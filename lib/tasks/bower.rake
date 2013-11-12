@@ -5,7 +5,7 @@ namespace :bower do
   desc "Install components from bower"
   task :install do
     perform do
-      sh 'bower install'
+      sh 'bower install --allow-root'
     end
   end
 
